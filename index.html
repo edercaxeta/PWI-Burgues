@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <title>PWI Burguers</title>
+</head>
+
+<body>
+    <header>
+        <h1>Pwi <span>Burguers</span></h1>
+            <nav>
+                <ul aria-label="Navegação primaria" class="navegacao-primaria">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index2.html">Menu</a></li>
+                    
+                </ul>
+                       
+            </nav>
+    </header>
+
+    <section aria-label="seção curriculo download Eder" class="section-div">
+        <div>   
+            <h2>Olá! Somos</h2>
+            <h2 class="digitando">PWI Hamburgueria, uma empresa com 15 anos de mercado, dedica em melhor te atender e realizar todos seus sonhos gastronimicos. Seja bem Vindo!! </h2>
+        </div>
+        <img src="img/Projects/logotipo.png" alt="ilustrativa imagem de uma pessoa">
+    </section>
+
+    
+    <footer><a name ="contato"></a>
+        <div class="sobre_titulo">
+            <h1>Contato</h1>
+        </div>
+        <div class="sobre_titulo">
+        </div>
+         <nav aria-label="navegação de Links Sociais">
+            <main>
+                <article aria-label="Seção sobre mim" class="sobre">
+                    <div class="sobre_titulo">
+                        <div aria-label="Seção de botões">
+                        </div>
+                    </div>
+                    <img src="img/Projects/email.png" alt="ilustrativa imagem de uma pessoa">
+                    <form name="meu_form" action="mailto:edercaxeta10@hotmail.com" method="post" enctype="text/plain" class="meu_form">
+        
+                        <h1 class="contato">Entre em contato</h1>
+                      
+                        <input type="text" id="nomeid" placeholder="Eder Caixeta De lima" required="required" name="nome" />
+                        <label for="nome">Nome</label>
+                      
+                        <input type="tel" id="foneid" placeholder="(xx)xxxxx-xxxx" name="fone" />
+                        <label for="fone">Fone</label>
+                      
+                        <input type="email" id="emailid" placeholder="fulano@mail.com" name="email" />
+                        <label for="email">Email</label>
+                      
+                        <textarea placeholder="Deixe sua opnião"></textarea>
+                      
+                        <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+                      </form>
+                </article>
+             <ul class="footer_sociais">
+
+                <li><a href="https://www.facebook.com/Edereuilma "target=_blank><i class="fa-brands fa-facebook-f"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/eder-caixeta-de-lima-31786b219/" target=_blank><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="https://www.instagram.com/ederuilma/ "target=_blank><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://github.com/edercaxeta" target=_blank><i class="fa-brands fa-github"></i></a></li> 
+                <li><a class="whatsapp-link" href="https://web.whatsapp.com/send?phone=5561992810393" target="_blank"><i class="fa fa-whatsapp"></i></a></li>
+                
+            </ul>
+         </nav>
+         <p class="footer_comercial">Todos os direitos reservados &copy;Eder - 2023</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
