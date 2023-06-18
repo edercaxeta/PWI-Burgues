@@ -56,13 +56,3 @@ function Enviar() {
     }
 
 }
-
-let aguaGas = document.getElementById("aguaGAs")
-let refri = document.getElementById("refri")
-
-aguaGas = 1.99
-refri = 2.99
-
-let soma = aguaGas + refri
-
-console.log(soma)

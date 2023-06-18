@@ -497,6 +497,11 @@ form label {
         color:white;
     }
 
+    
+    header .navegacao-primaria{
+        display: none;
+    }
+
     header {
         justify-content: space-between;
         padding: 30px 70px;
@@ -506,7 +511,7 @@ form label {
         color:#f7f7f7;
         font-size: 3rem;
     }
-
+    
     header .navegacao-primaria.ativado{
         background: linear-gradient(rgba(43, 42, 42, 0.176), rgba(46, 46, 46, 0.724));
         position: absolute;
